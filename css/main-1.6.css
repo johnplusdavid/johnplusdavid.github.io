@@ -226,13 +226,13 @@ nav ul li a::-moz-focus-inner {border:0;}
     MOBILE: Main
    ============== */
 
-.main {
+/*.main {
     padding: 5% 0;
 }
 .main header {
     float: left;
     width: 80%;
-}
+}*/
 
 .responsive-image {
   height: auto;
