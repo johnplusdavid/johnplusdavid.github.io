@@ -25,7 +25,8 @@
         <link rel="stylesheet" href="css/main-1.6.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="/css/meanmenu.css" media="all" />
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -45,24 +46,21 @@ http://scal.io -- check us out.
 http://scal.io -- check us out.
 ****************************************************************************************************-->
 
-        <!--<div id="bg-image">
-            <img src="img/background.jpg" alt="bg" />
-        </div>-->
- <div class="topnav" id="myTopnav">
-  <nav id="nav">
-                        <ul>
+
+
+
+<div class="topnav" id="myTopnav">
+     <nav id="nav">
+						<ul>
 							<li><a href="#thegrooms">THE GROOMS</a></li>
                             <li><a href="#wedding">WEDDING</a></li>
                             <li><a href="#accomodations">ACCOMODATIONS</a></li>
                             <li><a href="#registry">REGISTRY</a></li>
                             <li><a href="http://sarahlovesbradley.tumblr.com" target="_blank">RSVP</a></li>
-                            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
-                        </ul>
+		 </ul>
+		</nav>
+</div>
 
-
-        
-                    </nav>
-		</div>
   
 
 <!--        <div id="bg-container">-->
@@ -349,16 +347,15 @@ http://scal.io -- check us out.
         </div> <!-- #bg-container -->
         
 
-        <script src="js/main-1.6.js"></script>
-        <script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-} </script>
+        <script src="/css/main-1.6.css"></script>
         
-		</body>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+<script src="/css/jquery.meanmenu.js"></script>
+        
+   <script>
+jQuery(document).ready(function () {
+    jQuery('topnav nav').meanmenu();
+});
+</script>
+</body>
 </html>
