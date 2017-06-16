@@ -248,7 +248,7 @@ body {
     text-align: center;
 	
 	/* Location of the image */
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background-mobile.jpg");
   
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -269,6 +269,11 @@ body {
   background-color: #464646;
 
 }
+
+@media only screen and (min-device-width: 900px) {
+    body {
+        background-image: url('../img/background-16-10.jpg');
+    }
 
 #bg-image {
     position: fixed; 
