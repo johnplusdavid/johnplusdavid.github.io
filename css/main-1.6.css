@@ -175,7 +175,7 @@ body {
 #introtext .date {
     margin-top: 10px;
     font-family: "sf_ui_display_black", sans-serif;
-    font-size: 2em;
+    font-size: 10em;
 }
 
 /* ==============
@@ -420,22 +420,6 @@ section h2 {
         font-size: 3em;
     }
 
-#introtext .head-names {
-    font-family: "mallory_bold", sans-serif;
-    font-size: 5em;
-    line-height: 100%;
-}
-#introtext .head-plus {
-    font-family: "mallory_book", sans-serif;
-    font-size: 5em;
-    line-height: 100%;
-}
-#introtext .date {
-    margin-top: 10px;
-	margin-bottom: 20px;
-    font-family: "sf_ui_display_black", sans-serif;
-    font-size: 2em;
-}
     /*#introtext .date {
         font-size: 1.1em;
         margin-top: 15px;
