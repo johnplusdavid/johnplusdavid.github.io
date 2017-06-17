@@ -175,7 +175,8 @@ body {
 #introtext .date {
     margin-top: 10px;
     font-family: "sf_ui_display_black", sans-serif;
-    font-size: 10em;
+    font-size: 2em;
+	margin-bottom: 20px;
 }
 
 /* ==============
@@ -186,7 +187,6 @@ body {
     background-color: #333;
 	position: fixed; /* Set the navbar to fixed position */
     width: 100%; /* Full width */
-	margin-bottom: 20px;
 }
 
 
