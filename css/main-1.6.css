@@ -186,6 +186,7 @@ body {
     background-color: #333;
 	position: fixed; /* Set the navbar to fixed position */
     width: 100%; /* Full width */
+	margin-bottom: 20px;
 }
 
 
@@ -431,6 +432,7 @@ section h2 {
 }
 #introtext .date {
     margin-top: 10px;
+	margin-bottom: 20px;
     font-family: "sf_ui_display_black", sans-serif;
     font-size: 2em;
 }
