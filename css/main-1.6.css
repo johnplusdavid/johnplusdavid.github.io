@@ -180,6 +180,10 @@ body {
 	margin-bottom: 20px;
 }
 
+.responsive-image-scale {
+	max-width: 100%;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
@@ -819,15 +823,6 @@ section h2 {
     text-align: center;
     margin: 60px auto 60px auto;
 }
-.responsive-image.proposal img {
-    border: 10px solid #090909;
-
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-}
 
 img.theinn  {
 
@@ -875,12 +870,12 @@ a.email {
     margin-bottom: 0;
     float: left;
 
-    border: 4px solid #090909;
+    /*border: 4px solid #090909;
 
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 2px;*/
 }
 
