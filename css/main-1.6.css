@@ -186,7 +186,7 @@ body {
 
 .responsive-slideshow {
 	max-width: 100%;
-	animation: fading 5s infinite;
+	animation: fading 8s infinite;
 }
 
 @keyframes fading {
