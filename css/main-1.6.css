@@ -184,6 +184,15 @@ body {
 	max-width: 100%;
 }
 
+.responsive-slideshow {
+	max-width: 100%;
+	animation: fading 5s infinite;
+}
+
+@keyframes fading {
+	0%{opacity:0}50%{opacity:1}100%{opacity:0}
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
