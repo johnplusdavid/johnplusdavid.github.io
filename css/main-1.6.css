@@ -385,9 +385,23 @@ section h2 {
     padding: 0;
 }
 
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+	.column.full {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+    .column {
+        float: left;
+        width: 50%;
+    }
+}
 
 @media only screen and (min-width: 480px) {
 
@@ -491,8 +505,15 @@ section h2 {
     }
 
 
-    .column p {
-        font-size: 1.1em;
+    .column.full {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+    .column {
+        float: left;
+        width: 50%;
+		font-size: 1.2em;
     }
 
     #gmap iframe {
@@ -562,6 +583,17 @@ section h2 {
         padding: 15px 2%;
         font-size: 90%;
     }
+	
+	.column.full {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+    .column {
+        float: left;
+        width: 50%;
+		font-size: 1.4em;
+    }
 }
 @media only screen and (min-width: 900px) {
 
@@ -583,7 +615,7 @@ section h2 {
         width: 50%;
     }
     .column p {
-        font-size: 1.4em;
+        font-size: 1em;
         line-height: 145%;
         padding: 0 20px;
     }  
@@ -633,6 +665,8 @@ section h2 {
 
   
 }
+
+
 
 /* ==========================================================================
    Helper classes
